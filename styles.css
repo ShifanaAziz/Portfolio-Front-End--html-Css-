@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ce9090;
+}
+
+header {
+    background-color: #333;
+    color: rgb(172, 142, 142);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(201, 196, 196);
+    text-decoration: none;
+}
+
+/* About Section */
+/* About Section Styling */
+#about {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px; /* Reduce the size of the image */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 70%; /* Make the image circular */
+    object-fit: cover;
+    margin-left: auto; /* Align the image to the right */
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    background-color: #4713be;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.project {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #a26060;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
